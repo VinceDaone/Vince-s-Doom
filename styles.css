@@ -1,0 +1,70 @@
+/* Default light theme */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+.logo {
+    width: 150px;
+    border-radius: 50%;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #444;
+}
+.introduction, .videos {
+    padding: 20px;
+}
+.video {
+    margin: 20px 0;
+}
+iframe {
+    width: 80%;
+    height: 315px;
+    border: none;
+}
+
+/* Dark theme */
+body.dark-theme {
+    background-color: #181818;
+    color: #f4f4f4;
+}
+body.dark-theme header {
+    background-color: #444;
+}
+body.dark-theme nav ul li a {
+    color: #f4f4f4;
+}
+body.dark-theme button {
+    background-color: #f4f4f4;
+    color: #000;
+}
+body.dark-theme button:hover {
+    background-color: #ccc;
+}
